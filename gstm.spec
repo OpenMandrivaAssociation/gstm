@@ -35,17 +35,6 @@ Summary: A Gnome X11 passphrase dialog for OpenSSH
 rm -rf $RPM_BUILD_ROOT
 %makeinstall
 
-mkdir -p $RPM_BUILD_ROOT%{_menudir}
-cat << EOF > $RPM_BUILD_ROOT%{_menudir}/%{name}
-?package(gstm): command="/usr/bin/gstm" \
-icon="gSTM.png" \
-longtitle="Gnome SSH Tunnel Manager" \
-needs="X11" \
-section="Internet/Remote Access" \
-startup_notify="true" \
-title="Gstm" \
-xdg="true"
-EOF
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -62,7 +51,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/%{name}
 %{_datadir}/applications/*.desktop
 %{_datadir}/pixmaps/*
-%{_menudir}/%{name}
 
 %files -n gaskpass
 %{_bindir}/gaskpass
