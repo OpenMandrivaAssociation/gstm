@@ -1,6 +1,6 @@
 Name:		gstm
 Version:	1.2
-Release:	%mkrel 6
+Release:	%mkrel 8
 Summary:	A front-end to ssh tunneling
 
 Group:		Networking/Remote access
