@@ -1,6 +1,6 @@
 Name:		gstm
 Version:	1.2
-Release:	10
+Release:	11
 Summary:	A front-end to ssh tunneling
 
 Group:		Networking/Remote access
