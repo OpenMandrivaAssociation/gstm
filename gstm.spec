@@ -5,7 +5,7 @@ Summary:	A front-end to ssh tunneling
 
 Group:		Networking/Remote access
 License:	GPL
-URL:		http://gstm.sourceforge.net
+URL:		https://gstm.sourceforge.net
 Source0:	http://heanet.dl.sourceforge.net/sourceforge/%{name}/%{name}-%{version}.tar.bz2
 
 BuildRequires:	desktop-file-utils
