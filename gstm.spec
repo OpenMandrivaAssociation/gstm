@@ -8,6 +8,11 @@ License:	GPL
 URL:		https://gstm.sourceforge.net
 Source0:	http://heanet.dl.sourceforge.net/sourceforge/%{name}/%{name}-%{version}.tar.bz2
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	desktop-file-utils
 BuildRequires:	pkgconfig(libgnomeui-2.0)
 Requires: openssh-clients
